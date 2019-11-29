@@ -38,7 +38,7 @@ job "isgo17outyet" {
 
       service {
         name = "isgo17outyet"
-        tags = ["urlprefix-isgo17outyet.randschau.eu/"]
+        tags = ["urlprefix-isgo17outyet.bene.us/"]
         port = "http"
         check {
           type = "http"

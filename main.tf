@@ -23,9 +23,9 @@ data "scaleway_image" "ubuntu" {
 }
 
 provider "scaleway" {
-  access_key      = "***REMOVED***"
-  secret_key      = "***REMOVED***"
-  organization_id = "***REMOVED***"
+  access_key      = "<SCW-ACCESS-KEY>"
+  secret_key      = "<SCW-SECRET_KEY>"
+  organization_id = "<SCW-ORGANIZATION-ID>"
   zone            = "fr-par-1"
   region          = "fr-par"
 }
